@@ -1,3 +1,13 @@
+- psql postgresql://postgres:postgres@localhost:54322/postgres
+- https://github.com/supabase-community/nextjs-openai-doc-search/
+- local env vars
+    - nextjs: .env.local
+    - embeddings (dotenv): .env
+    - export $(cat .env.local)
+
+<!-- q: how do you make bullets for a bullet? -->
+
+
 # Next.js OpenAI Doc Search Starter
 
 This starter takes all the `.mdx` files in the `pages` directory and processes them to use as custom context within [OpenAI Text Completion](https://platform.openai.com/docs/guides/completion) prompts.
